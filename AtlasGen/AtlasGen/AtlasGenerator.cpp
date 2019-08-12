@@ -120,8 +120,6 @@ bool AtlasGenerator::GenerateAtlas(const std::filesystem::path & aAtlasPath)
 
 	sf::RenderTexture atlasTexture;
 	atlasTexture.create(size, size);
-	atlasTexture.clear();
-	//atlasTexture.setView(sf::View(sf::FloatRect(0.f, 0.f, 1.f, 1.f)));
 
 	std::cout << "Rendering textures onto atlas..." << std::endl;
 
